@@ -218,7 +218,7 @@ section {
   font-weight: bold;
   color: var(--white);
 }
-.level-1 ul > li:hover {
+.level-1 >ul > li:hover {
   color: var(--blue);
   cursor: pointer;
   font-weight: bold;
@@ -255,9 +255,14 @@ section {
 .level-3 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column; /*para que los elementos p se muestren en columnas y no en filas*/
+  cursor: default; /*para que el cursor se muestre normal*/
 }
 
 .level-3 p {
+  cursor: default; /*para que el cursor se muestre normal*/
+}
+.level-3 li:hover {
   cursor: default;
 }
 
@@ -266,9 +271,11 @@ section {
   font-size: 1rem !important;
   color: var(--black);
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: uppercase; 
 }
-
+.level-1 ul .link-item:hover {
+  cursor: pointer !important;
+}
 @media screen and (max-width: 600px) {
   nav {
     padding: 1em 2em;
