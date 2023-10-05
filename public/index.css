@@ -178,10 +178,12 @@ article {
 /*  SECTION: Overlay Menu Section
 ----------------------------------------------- */
 section {
-  position: absolute;
+  position: fixed;
   top: 0;
+  bottom: 0;
   left: 0;
-  z-index: 9;
+  right: 0;
+  z-index: 1000;
   min-height: 100vh;
   padding: 8em 5em 2em 5em;
   background-color: var(--purple);
