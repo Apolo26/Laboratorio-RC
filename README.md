@@ -1,5 +1,5 @@
 
-# Laboratorio Central Ramon Carrilo
+# Laboratorio Central Ramon Carrillo
 <div align="center">
 <img align="center" alt="Coding" width="600" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif"
 </div>
